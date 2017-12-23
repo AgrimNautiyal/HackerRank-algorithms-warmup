@@ -1,0 +1,13 @@
+n=int(input())
+a=input().split(" ")
+p=n1=z=0
+for i in range(n):
+    if(int(a[i])>0):
+        p+=1
+    elif (int(a[i])<0):
+        n1+=1
+    else:
+        z+=1
+print( round((p/n),6))
+print( round((n1/n),6))
+print( round((z/n),6))
