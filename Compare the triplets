@@ -1,0 +1,16 @@
+alice=[0 for i in range(3)]
+bob = [0 for i in range(3)]    
+a=input().split(" ")
+b=input().split(" ")
+acount=bcount=nothing =0
+for i in range(3):
+    alice[i]=int(a[i])
+    bob[i]=int(b[i])
+    if(alice[i]>bob[i]):
+        acount+=1
+    elif(alice[i]<bob[i]):
+        bcount+=1
+    else:
+        nothing+=1
+s = str(acount)+ " "+ str(bcount)
+print(s)
