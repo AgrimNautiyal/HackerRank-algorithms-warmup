@@ -1,0 +1,6 @@
+n= int(input())
+sum1=0
+a=input().split(" ")
+for i in range(n):
+    sum1+=int(a[i])
+print(sum1)
